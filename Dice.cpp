@@ -7,6 +7,11 @@ using namespace std;
 int main(){
   int Die1, Die2;
   int sum = 0;
+  string name;
+  cout << "What is your name?" << endl;
+  cout << "> ";
+  cin >> name;
+  cout << "Hello, " << name << "!"<< endl;
   srand((unsigned)time(NULL));
   cout << "Rolling dice..." << endl;
   Die1 = rand()%6+1;//rand()%6で0から5の値を出し、それらすべてを+1する
