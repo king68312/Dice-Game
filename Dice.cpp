@@ -15,4 +15,6 @@ int main(){
   cout << "Die 2: " << Die2 << endl;
   sum = Die1+Die2;
   cout << "Total value: " << sum << endl;
+  if(sum > 7) cout << "You won" << endl;
+  else cout << "You lost" << endl;
 }
